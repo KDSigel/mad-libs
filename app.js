@@ -1,8 +1,17 @@
 // import functions and grab DOM elements
+const inputVerb = document.getElementById("verb1");
+const inputAdj = document.getElementById("adjective1");
+const inputNoun = document.getElementById("noun1");
 
-// initialize state
+const inputBtn = document.getElementById("submit");
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+const newVerb = document.getElementById("new-verb1");
+const newAdjective = document.getElementById("new-adjective1");
+const newNoun = document.getElementById("new-noun1");
+
+
+inputBtn.addEventListener("click", () => {
+
+newVerb.textContent = inputVerb
+
+});

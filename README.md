@@ -9,3 +9,16 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+in html:
+- background image
+- title
+- instructions
+- box for inputs
+- input boxes
+- input box descriptions
+- lyrics
+- submit button
+
+input boxes will need ids
+submit button needs ids
+changed words need ids
